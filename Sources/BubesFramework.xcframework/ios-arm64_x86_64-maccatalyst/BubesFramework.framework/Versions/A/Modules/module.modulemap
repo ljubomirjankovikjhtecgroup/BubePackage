@@ -1,0 +1,11 @@
+framework module BubesFramework {
+  umbrella header "BubesFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module BubesFramework.Swift {
+  header "BubesFramework-Swift.h"
+  requires objc
+}

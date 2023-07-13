@@ -1,0 +1,150 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BubesFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BubesPrinter",
+        "printedName": "BubesPrinter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BubesPrinter",
+                "printedName": "BubesFramework.BubesPrinter",
+                "usr": "s:14BubesFramework0A7PrinterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14BubesFramework0A7PrinterV8passwordACSS_tcfc",
+            "mangledName": "$s14BubesFramework0A7PrinterV8passwordACSS_tcfc",
+            "moduleName": "BubesFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "printWithSmiley",
+            "printedName": "printWithSmiley(text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BubesFramework0A7PrinterV15printWithSmiley4textS2S_tF",
+            "mangledName": "$s14BubesFramework0A7PrinterV15printWithSmiley4textS2S_tF",
+            "moduleName": "BubesFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14BubesFramework0A7PrinterV",
+        "mangledName": "$s14BubesFramework0A7PrinterV",
+        "moduleName": "BubesFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "Array",
+      "offset": 86,
+      "length": 39,
+      "value": "[\"Bube\", \"Admin\"]"
+    },
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 19,
+      "value": "\"PASSWORD IS VALID\""
+    },
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 325,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 26,
+      "value": "\"PROVIDE A VALID PASSWORD\""
+    },
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 420,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 11,
+      "value": "\"😀\""
+    },
+    {
+      "filePath": "\/Users\/ljubomirjankovikj\/Documents\/Software\/BubeFrameworkSPMProject\/BubesFramework\/BubesFramework\/BubesFramework\/BubesPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 27,
+      "value": "\"Failed to printWithSmiley\""
+    }
+  ]
+}
