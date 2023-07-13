@@ -3,9 +3,6 @@ import XCTest
 
 final class BubesPrinterTests: XCTestCase {
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(BubesPrinter().text, "Hello, World!")
+        XCTAssertEqual(BubesPrinter().printWithSmiley(text: "Hello, World!"), "Hello,\u{1F600}World!")
     }
 }

@@ -1,6 +1,7 @@
-public struct BubesPrinter {
-    public private(set) var text = "Hello, World!"
+import Foundation
 
-    public init() {
+public struct BubesPrinter {
+    func printWithSmiley(text: String) -> String {
+        return text.replacingOccurrences(of: " ", with: "\u{1F600}")
     }
 }
